@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .target(
+        .testTarget(
             name: "XCUIDebug",
             path: "Sources/XCUIDebug"
         )
